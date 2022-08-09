@@ -1,0 +1,9 @@
+input{
+cursor:pointer;
+font-size:25p;
+background-color:#F2EFE7;
+border:2px #5A331E solid;}
+input:hover{
+background-color:#fff;
+border-radius:5px;}
+/* style="font-size:25px;" */

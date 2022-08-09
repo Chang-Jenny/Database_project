@@ -1,0 +1,107 @@
+* {
+box-sizing: border-box;
+margin:0px;}
+ 
+body {
+font-family: Arial;
+padding:0px;
+background: #F2EFE7;}
+ 
+       
+h1 {
+font-family: "Segoe Print";
+text-align: center;}
+ 
+p, td, ul,th{
+font-size: 6mm;
+font-family: "MV Boli";
+color:#5A331E;}
+
+h2{
+font-family: "MV Boli";
+color: #5A331E;}
+
+p, h2,ul, img{
+margin-left: 40px;}
+ 
+td {
+text-align: center;}
+ 
+table {
+border-collapse: collapse;
+border: #5A331E;}
+ 
+table, th {
+border-top-width: 3px;
+border-right-width: 3px;
+border-bottom-width: 3px;
+border-left-width: 3px;
+border-top-style: solid;
+border-right-style: solid;
+border-bottom-style: solid;
+border-left-style: solid;
+border-color:#9D5628;}
+
+ /* Header/Blog Title */
+.header {
+padding: 150px;
+margin:0px;
+text-align: center;
+background: white;
+background-image: url("../assets/banner.jpg");
+background-repeat: no-repeat;
+background-size: cover;}
+
+.header h1 {
+font-size: 65px;
+font-style: italic;
+text-align: center;
+font-family: "Lucida Console", "MS Reference Sans Serif";
+font-weight: bolder;
+color: white;}
+ 
+ /* Style the top navigation bar */
+.topnav {
+overflow: hidden;
+background-color: #C99E5E;
+position: sticky;
+top: 0;
+font-size: 20px;
+text-align: center;
+font-family: "Lucida Console", "MS Reference Sans Serif";}
+ 
+ /* Style the topnav links */
+.topnav a {
+float: left;
+display: block;
+color: #9D5628;
+text-align: center;
+padding: 20px 25px;
+text-decoration: none;}
+ 
+ /* Change color on hover */
+.topnav a:hover {
+background-color: #5A331E;
+color: #F2EFE7;}
+ 
+/* Footer */
+.footer {
+padding: 25px;
+text-align: center;
+background: #C99E5E;
+margin-top: 15px;
+color:white;}
+       
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+.leftcolumn, .rightcolumn {   
+width: 100%;
+padding: 0;}
+}
+ 
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+.topnav a {
+float: none;
+width: 100%;}
+}
